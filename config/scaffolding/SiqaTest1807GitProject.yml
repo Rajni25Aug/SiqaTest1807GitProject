@@ -72,7 +72,7 @@ services:
     version: 10.3.0.0.34
     wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: project.siqatest1807git.integrations:JMS_JNDI_SSL
+- serviceName: project.siqatest1807git.integrations:JMSFlowTest
   packages:
   - name: SiqaTest1807GitProject
     version: "1.0"
@@ -94,6 +94,20 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.siqatest1807git.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SiqaTest1807GitProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
 - serviceName: project.siqatest1807git.integrations:SIQAAdapterFlow
   packages:
   - name: SiqaTest1807GitProject
