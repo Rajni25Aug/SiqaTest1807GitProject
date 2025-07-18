@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Rajni25Aug
   gitUsername: Rajni25Aug
   gitBranch: main
+services:
+- serviceName: project.siqatest1807git.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:DBInsert
+  packages:
+  - name: SiqaTest1807GitProject
+    version: "1.0"
+- serviceName: project.siqatest1807git.integrations:SIQAAdapterFlow
+  packages:
+  - name: SiqaTest1807GitProject
+    version: "1.0"
